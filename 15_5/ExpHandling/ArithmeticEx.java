@@ -42,3 +42,21 @@ class Excep {
 
      }
 }
+
+
+// {
+    
+//     // close db connection
+
+// }
+
+
+// try{
+//     // Open db connction => executed 
+//     // read data ; => exception 
+// }catch(Exception e){
+
+// } finally{
+//     // close 
+// }
+

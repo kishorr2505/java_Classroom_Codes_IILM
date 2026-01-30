@@ -10,6 +10,7 @@ class finallyBlock {
                 System.out.println("Statement 3");
             }finally{
                 System.out.println("Statement 4");
+                System.out.println("Close db conncetion");
             }
             System.out.println("Statement 5");
     }    
