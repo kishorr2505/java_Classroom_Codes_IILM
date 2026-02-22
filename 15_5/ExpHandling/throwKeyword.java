@@ -15,17 +15,19 @@
 
 //     static ArithmeticException e = new ArithmeticException();
 //     public static void main(String[] args) {
-//         throw e;
+//          throw e;
 //     }
     
 // }
 
 
 public class throwKeyword {
-
-    static ArithmeticException e ;
+ 
+     ArithmeticException e ;
     public static void main(String[] args) {
-        throw e;
+        throwKeyword t1 = new throwKeyword();
+        throw t1.e;
+
     }
     
 }

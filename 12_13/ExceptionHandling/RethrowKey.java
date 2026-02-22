@@ -15,7 +15,7 @@ class throwsKeyword {
         }catch(Exception e){
             // 
             System.out.println("InputMismatchedException");
-            throw e;
+            throw e; // rethrow exception 
         }
     }
 }

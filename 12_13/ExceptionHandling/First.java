@@ -8,7 +8,7 @@ class First{
             // System.out.println("ArithmeticException");
             // e.printStackTrace(); // name + Description + Stack Trace
             // System.out.println(e.toString()); // name + Description 
-            System.out.println(e.getMessage());
+            System.out.println(e.getMessage()); // Description
         }
     }
 }

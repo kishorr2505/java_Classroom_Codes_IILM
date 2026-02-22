@@ -6,7 +6,6 @@
 //     }
 // }
 
-
 // case1:
 
 // public class throwCases {
@@ -20,7 +19,7 @@
 public class throwCases {
     static ArithmeticException e;
     public static void main(String[] args) {
-        e.printStackTrace();
+        // e.printStackTrace();
         throw e;
     }
 }
